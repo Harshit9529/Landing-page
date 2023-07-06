@@ -1,2 +1,3 @@
-# Landing-page
-Task 1 
+# OCTANET_JULY
+
+Task-1: Design a Landing page 
