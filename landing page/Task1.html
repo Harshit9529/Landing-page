@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.initial-scaleS">
+  <title>H2 fitness</title>
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+      background:   url("background3.jpg") center 0% no-repeat ;  
+       height:400px ;
+      width: 1400x; 
+      color: white;
+      font-family: cursive;
+    }
+    
+
+    .left {
+      /* border: 2px solid red; */
+      display: inline-block;
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;
+
+
+    }
+
+    .mid {
+      /* border: 2px solid red; */
+      position: absolute;
+      right: 45%;
+      top: 0%;
+      display: block;
+      width: 600px;
+      margin: 30px auto;
+      left: 468px;
+    }
+
+    .right {
+      /* border: 2px solid red; */
+      display: inline-block;
+      position: absolute;
+      left: 1250px;
+      top: 45px;
+      /* font-size: 35px; */
+
+      width: 300px;
+
+
+
+
+    }
+
+    .navbar li {
+      display: inline-block;
+      padding: 0px 20px;
+      font-size: 20px;
+
+    }
+
+    .navbar li a {
+      text-decoration: none;
+      color: white;
+
+    }
+
+    /* .navbar li :hover{
+      color: gray;
+      text-decoration: underline;
+
+     } */
+
+    .navbar li a:hover,
+    .navbar li a.active {
+      color: gray;
+      text-decoration: underline;
+
+    }
+
+    .left img {
+      width: 133px;
+      display: block;
+      margin: auto;
+    
+    }
+
+    .left p {
+      margin: -4px 2px;
+      color: red;
+    }
+
+    .btn {
+      margin: 0px 10px;
+      background-color: rgb(83, 86, 85);
+      color: white;
+      border-radius: 12px;
+      cursor: pointer;
+      padding: 2px 3px;
+      font-size: 16px;
+      font-family: cursive;
+
+
+
+
+    }
+
+    .btn:hover {
+      background-color: rgba(46, 182, 114, 0.559);
+
+    }
+
+
+    .border {
+      /* border: 2px solid yellow; */
+      margin: 350px 70px;
+      width: 400px;
+      padding: 10px 50px;
+      height: 250px;
+      border-radius: 12px;
+      
+    }
+    .border h2{
+             text-align: center;
+    }
+    .text-group{
+      margin-left: 65px;
+
+    }
+
+   .text-group input{
+      border-radius: 12px;
+      margin: 3px;
+      padding: 1px;
+      text-align: center;
+      width: 250px;
+      font-size: 18px;
+      font-family: cursive;
+   }
+   .border button{
+    display:block;
+    margin:4px auto;
+    width: 80px;
+
+   }
+
+  </style>
+
+</head>
+
+<body>
+  <header class="container">
+    <div class="left">
+      <img src="logo-fotor-bg-remover-20230706171652.png" alt="">
+      <p>H2 fitness</p>
+
+
+    </div>
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="" class="active">home</a></li>
+        <li><a href="">about us</a></li>
+        <li><a href="">trainers</a></li>
+        <li><a href="">contact us</a></li>
+      </ul>
+    </div>
+    <div class="right">
+      <button class="btn">how to apply</button>
+      <button class="btn">support us</button>
+    </div>
+  </header>
+   
+  <div class="border">
+   <form action="noaction.php">
+    <h2>join and built yourself diffrent </h2>
+    <div class="text-group"><input type="text" placeholder="enter your name"></div>
+    <div class="text-group"><input type="text" placeholder="enter your gender"></div>
+    <div class="text-group"><input type="text" placeholder="enter your age"></div>
+    <div class="text-group"><input type="text" placeholder="enter your email"></div>
+     <button class="btn" >submit</button> 
+   </form>
+  </div>
+</body>
+
+</html>
